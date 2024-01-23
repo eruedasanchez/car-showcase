@@ -32,6 +32,7 @@ export const manufacturers = [
     "MINI",
     "Mitsubishi",
     "Nissan",
+    "Peugeot",
     "Porsche",
     "Ram",
     "Rolls-Royce",
