@@ -93,12 +93,6 @@ export const footerLinks = [
 ];
 
 export const footerCopyrightLinks = [
-    {
-        title: "Privacy Policy",
-        url: "/"
-    },
-    {
-        title: "Terms of Use",
-        url: "/"
-    }
+    { title: "Privacy Policy", url: "/" },
+    { title: "Terms of Use", url: "/" }
 ]
