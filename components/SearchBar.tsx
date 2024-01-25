@@ -26,12 +26,9 @@ const SearchBar = () => {
 
     const updateSearchParams = (model: string, manufacturer: string) => {
         const searchParams = new URLSearchParams(window.location.search);
-        console.log('searchParams antes de los seteos:', searchParams);
         
         model ? searchParams.set('model', model) : searchParams.delete('model');
         manufacturer ? searchParams.set('manufacturer', manufacturer) : searchParams.delete('manufacturer');
-
-        console.log('searchParams despues de los seteos:', searchParams);
 
         const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
         router.push(newPathname);
